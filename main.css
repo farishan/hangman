@@ -1,3 +1,17 @@
+body {
+	font-size: 20px;
+}
+
 .text-muted {
 	color: #ddd;
+}
+
+.text-center {
+	border: 1px solid pink;
+	text-align: center !important;
+}
+
+#word {
+	padding: 1rem;
+	border: 1px solid #aaa;
 }

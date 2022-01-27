@@ -2,13 +2,29 @@
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Title</title>
+	<title>Hangman</title>
 	<meta name="description" content="HTML5, CSS, JavaScript">
 	<meta name="author" content="Faris Hanugraha">
 	<link rel="stylesheet" href="main.css">
 </head>
 <body>
-	<span class="text-muted">Hello World</span>
+	<div class="text-center">
+		<h1>Hangman</h1>
+		<div>
+			<p>Guess this word:</p>
+			<div id="word"></div>
+		</div>
+
+		<p>Your chance: <span id="chance"></span></p>
+
+		<div>
+			<p>Select a letter: </p>
+			<div id="letters"></div>
+		</div>
+		<hr>
+		<button onclick="window.location.reload()">restart the game</button>
+	</div>
+
 	<script src="main.js"></script>
 </body>
 </html>
